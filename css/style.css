@@ -184,7 +184,13 @@ body {
 
 @media screen and (max-height: 730px) {
   #e-mail {
-    bottom: 25vh;
+    bottom: 19vh;
+  }
+}
+
+@media screen and (max-height: 335px) {
+  #e-mail {
+    bottom: 26vh;
   }
 }
 
