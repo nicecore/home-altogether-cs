@@ -139,11 +139,11 @@ body {
     font-size: 40px;
   }
   #subheader {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   #small-logo {
-    height: 60px;
+    height: 50px;
   }
 
   #fb-logo, #insta-logo {
@@ -152,7 +152,7 @@ body {
   #e-mail {
     /* margin-top: 45%; */
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     left: calc(50% - 116.4px);
     bottom: 23vh;
   }
@@ -184,7 +184,7 @@ body {
 
 @media screen and (max-height: 730px) {
   #e-mail {
-    bottom: 16vh;
+    bottom: 14vh;
   }
 }
 
