@@ -89,19 +89,11 @@ body {
 
 }
 
-#kyle-test {
-  text-align: center;
-}
-
 #e-mail {
   text-decoration: none;
   display: block;
-  margin-top: 7%;
   font-size: 24px;
   color: black;
-  position: absolute;
-  left: calc(50% - 146.35px);
-  bottom: 15vh;
   font-family: "Gill Sans";
   font-weight: lighter;
   letter-spacing: 1px;
