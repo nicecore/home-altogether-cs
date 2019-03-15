@@ -1,0 +1,272 @@
+* {
+
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image:
+    linear-gradient(
+      rgba(238, 249, 255, .67),
+      rgba(238, 249, 255, .67)
+    ),
+    url("../img/pencils-crop.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-position: 40% 70%;
+}
+
+
+#main-section {
+/*    background-image: url("../img/pencils.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+/*    height: 100%;
+    width: 100%;*/
+
+}
+
+#header {
+    text-align: center;
+
+
+}
+
+#coming-soon {
+  letter-spacing: 2px;
+}
+
+#subheader {
+  margin-top: 2%;
+  font-family: "Gill Sans";
+  font-weight: lighter;
+  letter-spacing: 1px;
+  
+}
+
+#main-text {
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+
+#logo-top {
+  margin-top: 2%;
+}
+
+#small-logo {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#sign-up-button {
+    text-align: center;
+}
+
+#adam-test {
+  margin: 0 auto;
+}
+
+#adam-test-outer {
+  position: absolute;
+  bottom: 3vh;
+  width: 100%;
+
+  /* This is pushing your text below your bg image on narrow screens
+  margin-top: 15%;
+  */
+
+}
+
+#kyle-test {
+  text-align: center;
+}
+
+#e-mail {
+  text-decoration: none;
+  display: block;
+  margin-top: 7%;
+  font-size: 24px;
+  color: black;
+  position: absolute;
+  left: calc(50% - 146.35px);
+  bottom: 14vh;
+  font-family: "Gill Sans";
+  font-weight: lighter;
+  letter-spacing: 1px;
+
+
+}
+
+#e-mail:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.fonts {
+  font-family: Baskerville, "Century Gothic", "Gill Sans", Arial;
+  color: black;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width:300px) and (max-width:730px) {
+  body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 26% 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #logo-top {
+    height: 60px;
+  }
+
+  #coming-soon {
+    margin-top: 8%;
+    font-size: 40px;
+  }
+  #subheader {
+    font-size: 20px;
+  }
+
+  #small-logo {
+    height: 60px;
+  }
+
+  #fb-logo, #insta-logo {
+    height: 30px;
+  }
+  #e-mail {
+    /* margin-top: 45%; */
+    text-decoration: none;
+    font-size: 20px;
+    left: calc(50% - 116.4px);
+    bottom: 23vh;
+  }
+}
+
+
+
+@media screen and (max-height: 450px) and (orientation: landscape) {
+  #coming-soon {
+    margin-top: 5px;
+    font-size: 30px;
+  }
+  #main-text {
+    margin-top: 0;
+  }
+  #subheader {
+    margin-top: 0;
+    font-size: 17px;
+  }
+  #e-mail {
+    font-size: 17px;
+    left: calc(50% - 107.3px);
+    bottom: 29vh;
+  }
+  body {
+    background-position: 50% 38%
+  }
+}
+
+@media screen and (max-height: 730px) {
+  #e-mail {
+    bottom: 25vh;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-height: 250px) {
+  #e-mail {
+    bottom: 30vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media (min-width:1100px) {
+  #adam-test {
+    margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width:632px) {
+  #logo-top {
+    height: 60px;
+  }
+  #coming-soon {
+    margin-top: 8%;
+    font-size: 40px;
+  }
+  #subheader {
+    font-size: 20px;
+  }
+  .icons {
+    height: 80px;
+  }
+  #fb-logo, #insta-logo {
+    height: 40px;
+  }
+
+  #e-mail {
+    margin-top: 23%;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  #adam {
+    margin-top: 3px !important;
+  }
+
+}*/
+
+/*
+@media only screen and (max-width:420px) {
+
+  #logo-top {
+    height: 60px;
+  }
+
+  #e-mail {
+    margin-top: 30%;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+  #adam-test {
+    margin-top: 25%;
+  }
+  body {
+    background-size: cover;
+    background-position: 17%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-position: 17%;
+    -moz-background-position: 17%;
+    -o-background-position: 17%;
+  }
+}
+
+*/
